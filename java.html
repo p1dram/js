@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var hr = prompt("please enter your time:");
+      if (hr >= 0 && hr < 10) {
+        console.log("good morning");
+      } else if (hr >= 10 && hr <= 16) {
+        console.log("good after noone");
+      } else {
+        console.log("good night");
+      }
+
+      var x = 11;
+      if (x % 2 == 0) {
+        console.log("zooj");
+      } else {
+        console.log("fard");
+      }
+
+      var score = prompt("enter your score in this exam:");
+      if (score <= 20 && score >= 15) {
+        console.log("you got a very good score");
+      } else if (score < 15 && score >= 10) {
+        console.log("you got a normal score");
+      } else if (score < 10 && score >= 0) {
+        console.log("you are failed");
+      } else {
+        console.log("error");
+      }
+
+      var temp = prompt("please enter temp :");
+      if (temp >= 40) {
+        console.log("the weather is so hot");
+      } else if (temp < 40 && temp >= 15) {
+        console.log("the weather is so good");
+      } else if (temp < 15) {
+        console.log("the weather is so cold ");
+      }
+
+      var dollar = prompt("how much money do you have? :");
+      if (dollar >= 1000) {
+        console.log("nice");
+      } else if (dollar < 1000 && dollar >= 500) {
+        console.log("good");
+      } else {
+        console.log("not good ");
+      }
+    </script>
+  </body>
+</html>
